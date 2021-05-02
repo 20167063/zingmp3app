@@ -125,6 +125,10 @@
     background-color: var(--primary-color);
     cursor: pointer;
   }
+
+  #progress:hover{
+    cursor: pointer;
+  }
   
   
   .playlist {
@@ -149,7 +153,9 @@
   .song:active {
     opacity: 0.5;
   }
-  
+  .song:hover{
+    cursor: pointer;
+  }
   .song.active .option,
   .song.active .author,
   .song.active .title {
@@ -184,4 +190,6 @@
     color: #999;
     font-size: 18px;
   }
-  
+  .btn :hover{
+    cursor: pointer;
+  }
